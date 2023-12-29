@@ -20,7 +20,3 @@ variable "subscriptionId" {}
 variable "clientId" {}
 variable "clientSecret" {}
 variable "tenantId" {}
-
-variable "dummy" {
-  default = "dummy"
-}
