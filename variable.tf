@@ -20,3 +20,9 @@ variable "subscriptionId" {}
 variable "clientId" {}
 variable "clientSecret" {}
 variable "tenantId" {}
+
+variable "dummy1" {
+  description = "User requesting the resources"
+  default = "dummy1"
+}
+
